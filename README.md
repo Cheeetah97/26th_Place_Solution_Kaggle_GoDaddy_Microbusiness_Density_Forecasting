@@ -1,4 +1,4 @@
-## GoDaddy_Microbusiness_Density_Forecasting
+## Kaggle - GoDaddy_Microbusiness_Density_Forecasting
 This was a Kaggle Competition. The goal of this competition was to predict monthly microbusiness densities of US counties. This repository contains that code that ranks 30th on the Private leaderboard of the competition.
 
 The approach was as follows:
