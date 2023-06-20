@@ -25,7 +25,7 @@ and the results were stacked using another catboost model with less trees to avo
 ![stacking](https://github.com/Cheeetah97/GoDaddy_Microbusiness_Density_Forecasting/assets/62606459/196b9cf1-293d-4433-b536-b93f01add07b)
 
 ### Post Processing
-I used Linear Regression in conjunction with Rolling Median to identify the counties with the highest consitent rate of the change. Among the counties having a popuation greater than 15000, these counties were the ones I was more interested in. Using the trends of the last 2-4 months, I adjusted the predictions by multiplying them with a carefully trend factor.
+I used Linear Regression in conjunction with Rolling Median to identify the counties with the highest consitent rate of the change. Among the counties having a popuation greater than 15000, these counties were the ones I was more interested in. Using the trends of the last 2-4 months, I adjusted the predictions by multiplying them with a carefully chosen trend factor.
 
 In the end it seemed to have worked! Here are some of the adjusted counties.
 
